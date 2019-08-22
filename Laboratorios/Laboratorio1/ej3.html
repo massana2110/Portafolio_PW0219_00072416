@@ -12,19 +12,19 @@
         <fieldset>
             <legend>Personal Information</legend>
             <label for="name">Names: </label>
-            <input type="text" name="name" placeholder="David">
-            <input type="text" name="name" placeholder="ALejandro">
+            <input type="text" name="name" id="name" placeholder="David">
+            <input type="text" name="name" placeholder="Alejandro">
 
             <br><br>
 
             <label for="lastname">Last Names: </label>
-            <input type="text" name="lastname" placeholder="Massana">
+            <input type="text" name="lastname" id="lastname" placeholder="Massana">
             <input type="text" name="lastname" placeholder="Zacatares">
 
             <br><br>
 
             <label for="birth">Birthday: </label>
-            <input type="date" name="birthday" placeholder="dd/mm/aaaa">
+            <input type="date" name="birthday" id="birth" placeholder="dd/mm/aaaa">
 
             <br><br>
 
@@ -38,15 +38,20 @@
         <fieldset>
             <legend>Sing Up Information</legend>
             <label for="email">Email: </label>
-            <input type="email" name="email" placeholder="example@gmail.com" required>
+            <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
 
             <br><br>
             <label for="pass">Password: </label>
-            <input type="password" name="pass" placeholder="Password">
+            <input type="password" name="pass" id="pass" placeholder="Password">
 
             <br><br>
-            
+            <label for="verify">Verify Password: </label>
+            <input type="password" name="verify" id="verify" placeholder="Password">
         </fieldset>
+
+        <br>
+        <input type="submit" name="submitbutton" value="Submit">
+        <input type="reset" name="resetbutton" value="Reset Fields">
     </form>
 </body>
 </html>
