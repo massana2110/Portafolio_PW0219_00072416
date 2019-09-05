@@ -20,9 +20,11 @@ body {
 
     font-family: 'Quicksand', sans-serif;
 }
+header {
+    width: 100%;
+}
 
 header nav {
-    width: 100%;
     height: auto;
 
     display: flex;
@@ -78,7 +80,7 @@ main>img {
 }
 
 main h1 {
-    width: 60%;
+    width: 30%;
     height: auto;
 
     background: rgba(255, 255, 255, 0.5);
@@ -87,7 +89,7 @@ main h1 {
 
     color: darkred;
     
-    font-size: 5em;
+    font-size: 5vw;
 }
 
 main hr {
